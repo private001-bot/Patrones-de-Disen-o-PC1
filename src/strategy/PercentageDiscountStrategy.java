@@ -8,7 +8,7 @@ public class PercentageDiscountStrategy implements DiscountStrategy {
     }
 
     @Override
-    public double appyDiscount(double total) {
+    public double applyDiscount(double total) {
         return total - (total * (percentage / 100));
     }
 }

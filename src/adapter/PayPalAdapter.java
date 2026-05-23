@@ -1,6 +1,6 @@
 package adapter;
 
-public class PayPalAdapter {
+public class PayPalAdapter implements PaymentProcessor{
     private ExternalPayPalService payPalService;
 
     public PayPalAdapter(ExternalPayPalService payPalService) {
