@@ -1,5 +1,5 @@
 package strategy;
 
 public interface DiscountStrategy {
-    double appyDiscount(double total);
+    double applyDiscount(double total);
 }
